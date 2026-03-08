@@ -65,3 +65,27 @@ The model provides a detailed `classification_report`, allowing researchers to s
 git clone [https://github.com/your-username/agri-ml.git](https://github.com/your-username/agri-ml.git)
 cd agri-ml
 pip install pandas numpy scikit-learn
+```
+### 2. Run Pipeline
+
+Execute the full ingestion, weighting, and prediction flow:
+```bash
+python main.py
+```
+
+---
+
+## 📊 Results
+
+| Metric | Value |
+|--------|-------|
+| F1-Score | X |
+   
+---
+
+## 📉 Future Roadmap
+
+* **[ ] Geospatial Clustering:** Integrate GPS coordinates to account for spatial autocorrelation in adoption patterns.
+* **[ ] SHAP Explainability:** Implement SHAP (SHapley Additive exPlanations) to provide farmers and stakeholders with "Local Explanations" for predictions.
+* **[ ] Time-Series Extension:** Transition to an LSTM architecture to analyze how propensity changes over multiple planting seasons.
+
